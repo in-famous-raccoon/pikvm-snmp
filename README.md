@@ -10,8 +10,8 @@
 `nano /usr/share/snmp/snmpd.conf`
 
 ### Paste content from sh file to /opt folder and make executable
-`nano /opt/snmp-cpu-temp.sh
-chmod +x /opt/snmp-cpu-temp.sh`
+`nano /opt/snmp-cpu-temp.sh`  
+`chmod +x /opt/snmp-cpu-temp.sh`
 
 ### Because PiKVM runs in read only mode the script will fail. We need to link the cache file to tmp folder
 `rm /var/net-snmp/.snmp-exec-cache #in case the file already exists`
