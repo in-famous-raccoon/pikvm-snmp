@@ -1,11 +1,11 @@
 # Configuration on PiKVM
-## PiKVM enable write mode
+### PiKVM enable write mode
 `rw`
 
-## Install net-snmp and nano (you can also us vim instead of nano)
+### Install net-snmp and nano (you can also use vim instead of nano)
 `pacman -S net-snmp nano`
 
-## Configure snmpd
+### Configure snmpd
 #### Paste content from snmpd.conf to /usr/share/snmp/snmpd.conf
 `nano /usr/share/snmp/snmpd.conf`
 
@@ -20,7 +20,7 @@
 #### Restart SNMPD
 `systemctl restart snmpd.service`
 
-## PiKVM enable read only mode
+### PiKVM enable read only mode
 `ro`
 
 # Configuration on PRTG WebUI
